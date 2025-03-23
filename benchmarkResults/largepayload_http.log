@@ -10,116 +10,116 @@
         output: -
 
      scenarios: (100.00%) 1 scenario, 25 max VUs, 1m0s max duration (incl. graceful stop):
-              * largepayload_http: 25 looping VUs for 30s (exec: largePayloadHttp, gracefulStop: 30s)
+              * largepayload_http: Up to 25 looping VUs for 30s over 3 stages (gracefulRampDown: 30s, exec: largePayloadHttp, gracefulStop: 30s)
 
 
-running (0m01.0s), 25/25 VUs, 8946 complete and 0 interrupted iterations
-largepayload_http   [   3% ] 25 VUs  01.0s/30s
+running (0m01.0s), 01/25 VUs, 1608 complete and 0 interrupted iterations
+largepayload_http   [   3% ] 01/25 VUs  01.0s/30.0s
 
-running (0m02.0s), 25/25 VUs, 16734 complete and 0 interrupted iterations
-largepayload_http   [   7% ] 25 VUs  02.0s/30s
+running (0m02.0s), 03/25 VUs, 7711 complete and 0 interrupted iterations
+largepayload_http   [   7% ] 03/25 VUs  02.0s/30.0s
 
-running (0m03.0s), 25/25 VUs, 25225 complete and 0 interrupted iterations
-largepayload_http   [  10% ] 25 VUs  03.0s/30s
+running (0m03.0s), 05/25 VUs, 15121 complete and 0 interrupted iterations
+largepayload_http   [  10% ] 05/25 VUs  03.0s/30.0s
 
-running (0m04.0s), 25/25 VUs, 32807 complete and 0 interrupted iterations
-largepayload_http   [  13% ] 25 VUs  04.0s/30s
+running (0m04.0s), 07/25 VUs, 23150 complete and 0 interrupted iterations
+largepayload_http   [  13% ] 07/25 VUs  04.0s/30.0s
 
-running (0m05.0s), 25/25 VUs, 39932 complete and 0 interrupted iterations
-largepayload_http   [  17% ] 25 VUs  05.0s/30s
+running (0m05.0s), 09/25 VUs, 31862 complete and 0 interrupted iterations
+largepayload_http   [  17% ] 09/25 VUs  05.0s/30.0s
 
-running (0m06.0s), 25/25 VUs, 48218 complete and 0 interrupted iterations
-largepayload_http   [  20% ] 25 VUs  06.0s/30s
+running (0m06.0s), 11/25 VUs, 40687 complete and 0 interrupted iterations
+largepayload_http   [  20% ] 11/25 VUs  06.0s/30.0s
 
-running (0m07.0s), 25/25 VUs, 57466 complete and 0 interrupted iterations
-largepayload_http   [  23% ] 25 VUs  07.0s/30s
+running (0m07.0s), 12/25 VUs, 49542 complete and 0 interrupted iterations
+largepayload_http   [  23% ] 12/25 VUs  07.0s/30.0s
 
-running (0m08.0s), 25/25 VUs, 66849 complete and 0 interrupted iterations
-largepayload_http   [  27% ] 25 VUs  08.0s/30s
+running (0m08.0s), 14/25 VUs, 58303 complete and 0 interrupted iterations
+largepayload_http   [  27% ] 14/25 VUs  08.0s/30.0s
 
-running (0m09.0s), 25/25 VUs, 75796 complete and 0 interrupted iterations
-largepayload_http   [  30% ] 25 VUs  09.0s/30s
+running (0m09.0s), 15/25 VUs, 67178 complete and 0 interrupted iterations
+largepayload_http   [  30% ] 15/25 VUs  09.0s/30.0s
 
-running (0m10.0s), 25/25 VUs, 84559 complete and 0 interrupted iterations
-largepayload_http   [  33% ] 25 VUs  10.0s/30s
+running (0m10.0s), 17/25 VUs, 76387 complete and 0 interrupted iterations
+largepayload_http   [  33% ] 17/25 VUs  10.0s/30.0s
 
-running (0m11.0s), 25/25 VUs, 94001 complete and 0 interrupted iterations
-largepayload_http   [  37% ] 25 VUs  11.0s/30s
+running (0m11.0s), 18/25 VUs, 85574 complete and 0 interrupted iterations
+largepayload_http   [  37% ] 18/25 VUs  11.0s/30.0s
 
-running (0m12.0s), 25/25 VUs, 103889 complete and 0 interrupted iterations
-largepayload_http   [  40% ] 25 VUs  12.0s/30s
+running (0m12.0s), 20/25 VUs, 95244 complete and 0 interrupted iterations
+largepayload_http   [  40% ] 20/25 VUs  12.0s/30.0s
 
-running (0m13.0s), 25/25 VUs, 113452 complete and 0 interrupted iterations
-largepayload_http   [  43% ] 25 VUs  13.0s/30s
+running (0m13.0s), 21/25 VUs, 105409 complete and 0 interrupted iterations
+largepayload_http   [  43% ] 21/25 VUs  13.0s/30.0s
 
-running (0m14.0s), 25/25 VUs, 122842 complete and 0 interrupted iterations
-largepayload_http   [  47% ] 25 VUs  14.0s/30s
+running (0m14.0s), 23/25 VUs, 115046 complete and 0 interrupted iterations
+largepayload_http   [  47% ] 23/25 VUs  14.0s/30.0s
 
-running (0m15.0s), 25/25 VUs, 131860 complete and 0 interrupted iterations
-largepayload_http   [  50% ] 25 VUs  15.0s/30s
+running (0m15.0s), 24/25 VUs, 125775 complete and 0 interrupted iterations
+largepayload_http   [  50% ] 24/25 VUs  15.0s/30.0s
 
-running (0m16.0s), 25/25 VUs, 141185 complete and 0 interrupted iterations
-largepayload_http   [  53% ] 25 VUs  16.0s/30s
+running (0m16.0s), 25/25 VUs, 137045 complete and 0 interrupted iterations
+largepayload_http   [  53% ] 25/25 VUs  16.0s/30.0s
 
-running (0m17.0s), 25/25 VUs, 150644 complete and 0 interrupted iterations
-largepayload_http   [  57% ] 25 VUs  17.0s/30s
+running (0m17.0s), 25/25 VUs, 148011 complete and 0 interrupted iterations
+largepayload_http   [  57% ] 25/25 VUs  17.0s/30.0s
 
-running (0m18.0s), 25/25 VUs, 159777 complete and 0 interrupted iterations
-largepayload_http   [  60% ] 25 VUs  18.0s/30s
+running (0m18.0s), 25/25 VUs, 158687 complete and 0 interrupted iterations
+largepayload_http   [  60% ] 25/25 VUs  18.0s/30.0s
 
-running (0m19.0s), 25/25 VUs, 169171 complete and 0 interrupted iterations
-largepayload_http   [  63% ] 25 VUs  19.0s/30s
+running (0m19.0s), 25/25 VUs, 169325 complete and 0 interrupted iterations
+largepayload_http   [  63% ] 25/25 VUs  19.0s/30.0s
 
-running (0m20.0s), 25/25 VUs, 178570 complete and 0 interrupted iterations
-largepayload_http   [  67% ] 25 VUs  20.0s/30s
+running (0m20.0s), 25/25 VUs, 179834 complete and 0 interrupted iterations
+largepayload_http   [  67% ] 25/25 VUs  20.0s/30.0s
 
-running (0m21.0s), 25/25 VUs, 187862 complete and 0 interrupted iterations
-largepayload_http   [  70% ] 25 VUs  21.0s/30s
+running (0m21.0s), 25/25 VUs, 190704 complete and 0 interrupted iterations
+largepayload_http   [  70% ] 25/25 VUs  21.0s/30.0s
 
-running (0m22.0s), 25/25 VUs, 196981 complete and 0 interrupted iterations
-largepayload_http   [  73% ] 25 VUs  22.0s/30s
+running (0m22.0s), 25/25 VUs, 200811 complete and 0 interrupted iterations
+largepayload_http   [  73% ] 25/25 VUs  22.0s/30.0s
 
-running (0m23.0s), 25/25 VUs, 206628 complete and 0 interrupted iterations
-largepayload_http   [  77% ] 25 VUs  23.0s/30s
+running (0m23.0s), 25/25 VUs, 211134 complete and 0 interrupted iterations
+largepayload_http   [  77% ] 25/25 VUs  23.0s/30.0s
 
-running (0m24.0s), 25/25 VUs, 215855 complete and 0 interrupted iterations
-largepayload_http   [  80% ] 25 VUs  24.0s/30s
+running (0m24.0s), 25/25 VUs, 222024 complete and 0 interrupted iterations
+largepayload_http   [  80% ] 25/25 VUs  24.0s/30.0s
 
-running (0m25.0s), 25/25 VUs, 225192 complete and 0 interrupted iterations
-largepayload_http   [  83% ] 25 VUs  25.0s/30s
+running (0m25.0s), 25/25 VUs, 232752 complete and 0 interrupted iterations
+largepayload_http   [  83% ] 25/25 VUs  25.0s/30.0s
 
-running (0m26.0s), 25/25 VUs, 234068 complete and 0 interrupted iterations
-largepayload_http   [  87% ] 25 VUs  26.0s/30s
+running (0m26.0s), 25/25 VUs, 242980 complete and 0 interrupted iterations
+largepayload_http   [  87% ] 25/25 VUs  26.0s/30.0s
 
-running (0m27.0s), 25/25 VUs, 243230 complete and 0 interrupted iterations
-largepayload_http   [  90% ] 25 VUs  27.0s/30s
+running (0m27.0s), 25/25 VUs, 253584 complete and 0 interrupted iterations
+largepayload_http   [  90% ] 25/25 VUs  27.0s/30.0s
 
-running (0m28.0s), 25/25 VUs, 251851 complete and 0 interrupted iterations
-largepayload_http   [  93% ] 25 VUs  28.0s/30s
+running (0m28.0s), 25/25 VUs, 263787 complete and 0 interrupted iterations
+largepayload_http   [  93% ] 25/25 VUs  28.0s/30.0s
 
-running (0m29.0s), 25/25 VUs, 260293 complete and 0 interrupted iterations
-largepayload_http   [  97% ] 25 VUs  29.0s/30s
+running (0m29.0s), 25/25 VUs, 274489 complete and 0 interrupted iterations
+largepayload_http   [  97% ] 25/25 VUs  29.0s/30.0s
 
-running (0m30.0s), 25/25 VUs, 269001 complete and 0 interrupted iterations
-largepayload_http   [ 100% ] 25 VUs  30.0s/30s
+running (0m30.0s), 25/25 VUs, 285348 complete and 0 interrupted iterations
+largepayload_http   [ 100% ] 25/25 VUs  30.0s/30.0s
      ✓ [largepayload_http] status 200
 
-     checks.........................: 100.00% ✓ 269046      ✗ 0     
-     data_received..................: 2.7 GB  89 MB/s
-     data_sent......................: 24 MB   807 kB/s
-     http_req_blocked...............: avg=1.1µs   min=0s       med=1µs    max=5.29ms  p(90)=1µs    p(95)=2µs   
-     http_req_connecting............: avg=78ns    min=0s       med=0s     max=1.23ms  p(90)=0s     p(95)=0s    
-   ✓ http_req_duration..............: avg=2.75ms  min=417µs    med=2.71ms max=40.17ms p(90)=3.73ms p(95)=4.3ms 
-       { expected_response:true }...: avg=2.75ms  min=417µs    med=2.71ms max=40.17ms p(90)=3.73ms p(95)=4.3ms 
-     http_req_failed................: 0.00%   ✓ 0           ✗ 269046
-     http_req_receiving.............: avg=20.35µs min=6µs      med=15µs   max=19.44ms p(90)=25µs   p(95)=41µs  
-     http_req_sending...............: avg=3.35µs  min=1µs      med=2µs    max=5.05ms  p(90)=3µs    p(95)=5µs   
-     http_req_tls_handshaking.......: avg=0s      min=0s       med=0s     max=0s      p(90)=0s     p(95)=0s    
-     http_req_waiting...............: avg=2.73ms  min=398µs    med=2.69ms max=40.12ms p(90)=3.7ms  p(95)=4.26ms
-     http_reqs......................: 269046  8965.579062/s
-     iteration_duration.............: avg=2.78ms  min=435.95µs med=2.74ms max=40.26ms p(90)=3.75ms p(95)=4.33ms
-     iterations.....................: 269046  8965.579062/s
-     vus............................: 25      min=25        max=25  
+     checks.........................: 100.00% ✓ 285428      ✗ 0     
+     data_received..................: 2.8 GB  95 MB/s
+     data_sent......................: 26 MB   856 kB/s
+     http_req_blocked...............: avg=959ns   min=0s    med=1µs    max=1.66ms  p(90)=1µs    p(95)=2µs   
+     http_req_connecting............: avg=16ns    min=0s    med=0s     max=467µs   p(90)=0s     p(95)=0s    
+   ✓ http_req_duration..............: avg=1.96ms  min=219µs med=1.93ms max=30.49ms p(90)=3.06ms p(95)=3.49ms
+       { expected_response:true }...: avg=1.96ms  min=219µs med=1.93ms max=30.49ms p(90)=3.06ms p(95)=3.49ms
+     http_req_failed................: 0.00%   ✓ 0           ✗ 285428
+     http_req_receiving.............: avg=19.59µs min=6µs   med=15µs   max=3.11ms  p(90)=27µs   p(95)=46µs  
+     http_req_sending...............: avg=3.24µs  min=1µs   med=2µs    max=1.56ms  p(90)=3µs    p(95)=7µs   
+     http_req_tls_handshaking.......: avg=0s      min=0s    med=0s     max=0s      p(90)=0s     p(95)=0s    
+     http_req_waiting...............: avg=1.93ms  min=203µs med=1.91ms max=30.46ms p(90)=3.04ms p(95)=3.47ms
+     http_reqs......................: 285428  9513.507172/s
+     iteration_duration.............: avg=1.98ms  min=236µs med=1.96ms max=30.51ms p(90)=3.09ms p(95)=3.52ms
+     iterations.....................: 285428  9513.507172/s
+     vus............................: 25      min=1         max=25  
      vus_max........................: 25      min=25        max=25  
-running (0m30.0s), 00/25 VUs, 269046 complete and 0 interrupted iterations
-largepayload_http ✓ [ 100% ] 25 VUs  30s
+running (0m30.0s), 00/25 VUs, 285428 complete and 0 interrupted iterations
+largepayload_http ✓ [ 100% ] 00/25 VUs  30s

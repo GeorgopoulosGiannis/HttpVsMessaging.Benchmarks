@@ -7,39 +7,65 @@ const {SCENARIO} = __ENV || 'baseline_http';
 
 const scenarios = {
     baseline_http: {
-        executor: 'constant-vus',
-        vus: 25,
-        duration: '30s',
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+            { duration: '5s', target: 5 },
+            { duration: '5s', target: 15 },
+            { duration: '20s', target: 25 },
+        ],
         exec: 'baselineHttp',
     },
     baseline_messaging: {
-        executor: 'constant-vus',
-        vus: 25,
-        duration: '30s',
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+            { duration: '5s', target: 5 },
+            { duration: '5s', target: 15 },
+            { duration: '20s', target: 25 },
+        ],
         exec: 'baselineMessaging',
     },
     highload_http: {
-        executor: 'constant-vus',
-        vus: 200,
-        duration: '30s',
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+            { duration: '5s', target: 50 },
+            { duration: '5s', target: 100 },
+            { duration: '10s', target: 200 },
+            { duration: '10s', target: 200 }, // hold
+        ],
         exec: 'highLoadHttp',
     },
     highload_messaging: {
-        executor: 'constant-vus',
-        vus: 200,
-        duration: '30s',
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+            { duration: '5s', target: 50 },
+            { duration: '5s', target: 100 },
+            { duration: '10s', target: 200 },
+            { duration: '10s', target: 200 }, // hold
+        ],
         exec: 'highLoadMessaging',
     },
     largepayload_http: {
-        executor: 'constant-vus',
-        vus: 25,
-        duration: '30s',
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+            { duration: '5s', target: 10 },
+            { duration: '10s', target: 25 },
+            { duration: '15s', target: 25 }, // hold
+        ],
         exec: 'largePayloadHttp',
     },
     largepayload_messaging: {
-        executor: 'constant-vus',
-        vus: 25,
-        duration: '30s',
+        executor: 'ramping-vus',
+        startVUs: 0,
+        stages: [
+            { duration: '5s', target: 10 },
+            { duration: '10s', target: 25 },
+            { duration: '15s', target: 25 }, // hold
+        ],
         exec: 'largePayloadMessaging',
     },
 };
