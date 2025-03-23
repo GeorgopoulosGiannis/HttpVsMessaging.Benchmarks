@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectHttp", "DirectHttp", "{12515F72-8448-48D5-88F2-8A7CEA3CCD7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectHttp.Client", "DirectHttp\DirectHttp.Client\DirectHttp.Client.csproj", "{2CED8079-2C59-4ABA-A695-CCDD3B6489D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectHttp.Service", "DirectHttp\DirectHttp.Service\DirectHttp.Service.csproj", "{EADDFC6F-1FB8-460B-8FA1-2439F8BE43D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{EF090016-7DE4-48EF-A162-29573A388827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Client", "Messaging\Messaging.Client\Messaging.Client.csproj", "{36C1CC3B-CE7E-4F16-9BE6-87D20389EDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Worker", "Messaging\Messaging.Worker\Messaging.Worker.csproj", "{40662E93-0F5C-43AC-AFB2-179C7D87F739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messaging.Contracts", "Messaging\Messaging.Contracts\Messaging.Contracts.csproj", "{06C94EC7-8B49-4B71-ABD4-E44B2BC45D9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{300745C5-12F8-41B2-B3EA-5846E162EED3}"
+	ProjectSection(SolutionItems) = preProject
+		benchmark.js = benchmark.js
+		run-benchmarks.sh = run-benchmarks.sh
+		summarize.sh = summarize.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CED8079-2C59-4ABA-A695-CCDD3B6489D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CED8079-2C59-4ABA-A695-CCDD3B6489D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CED8079-2C59-4ABA-A695-CCDD3B6489D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CED8079-2C59-4ABA-A695-CCDD3B6489D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EADDFC6F-1FB8-460B-8FA1-2439F8BE43D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EADDFC6F-1FB8-460B-8FA1-2439F8BE43D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EADDFC6F-1FB8-460B-8FA1-2439F8BE43D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EADDFC6F-1FB8-460B-8FA1-2439F8BE43D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C1CC3B-CE7E-4F16-9BE6-87D20389EDF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C1CC3B-CE7E-4F16-9BE6-87D20389EDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C1CC3B-CE7E-4F16-9BE6-87D20389EDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C1CC3B-CE7E-4F16-9BE6-87D20389EDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40662E93-0F5C-43AC-AFB2-179C7D87F739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40662E93-0F5C-43AC-AFB2-179C7D87F739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40662E93-0F5C-43AC-AFB2-179C7D87F739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40662E93-0F5C-43AC-AFB2-179C7D87F739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C94EC7-8B49-4B71-ABD4-E44B2BC45D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C94EC7-8B49-4B71-ABD4-E44B2BC45D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C94EC7-8B49-4B71-ABD4-E44B2BC45D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C94EC7-8B49-4B71-ABD4-E44B2BC45D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2CED8079-2C59-4ABA-A695-CCDD3B6489D1} = {12515F72-8448-48D5-88F2-8A7CEA3CCD7F}
+		{EADDFC6F-1FB8-460B-8FA1-2439F8BE43D9} = {12515F72-8448-48D5-88F2-8A7CEA3CCD7F}
+		{36C1CC3B-CE7E-4F16-9BE6-87D20389EDF1} = {EF090016-7DE4-48EF-A162-29573A388827}
+		{40662E93-0F5C-43AC-AFB2-179C7D87F739} = {EF090016-7DE4-48EF-A162-29573A388827}
+		{06C94EC7-8B49-4B71-ABD4-E44B2BC45D9C} = {EF090016-7DE4-48EF-A162-29573A388827}
+	EndGlobalSection
+EndGlobal

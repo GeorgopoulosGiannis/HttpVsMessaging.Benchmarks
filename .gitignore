@@ -1,0 +1,5 @@
+/logs/
+**/obj
+**/bin
+.idea
+.DS_Store
