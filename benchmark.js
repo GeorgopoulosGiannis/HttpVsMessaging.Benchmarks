@@ -10,9 +10,9 @@ const scenarios = {
         executor: 'ramping-vus',
         startVUs: 0,
         stages: [
-            { duration: '5s', target: 5 },
-            { duration: '5s', target: 15 },
-            { duration: '20s', target: 25 },
+            { duration: '5s', target: 10 },
+            { duration: '5s', target: 20  },
+            { duration: '15s', target: 50 },
         ],
         exec: 'baselineHttp',
     },
@@ -20,9 +20,9 @@ const scenarios = {
         executor: 'ramping-vus',
         startVUs: 0,
         stages: [
-            { duration: '5s', target: 5 },
-            { duration: '5s', target: 15 },
-            { duration: '20s', target: 25 },
+            { duration: '5s', target: 10 },
+            { duration: '5s', target: 20 },
+            { duration: '15s', target: 50 },
         ],
         exec: 'baselineMessaging',
     },
@@ -30,10 +30,10 @@ const scenarios = {
         executor: 'ramping-vus',
         startVUs: 0,
         stages: [
-            { duration: '5s', target: 50 },
-            { duration: '5s', target: 100 },
-            { duration: '10s', target: 200 },
-            { duration: '10s', target: 200 }, // hold
+            {duration: '5s', target: 50},
+            {duration: '5s', target: 100},
+            {duration: '10s', target: 200},
+            {duration: '10s', target: 200}, // hold
         ],
         exec: 'highLoadHttp',
     },
@@ -41,10 +41,10 @@ const scenarios = {
         executor: 'ramping-vus',
         startVUs: 0,
         stages: [
-            { duration: '5s', target: 50 },
-            { duration: '5s', target: 100 },
-            { duration: '10s', target: 200 },
-            { duration: '10s', target: 200 }, // hold
+            {duration: '5s', target: 50},
+            {duration: '5s', target: 100},
+            {duration: '10s', target: 200},
+            {duration: '10s', target: 200}, // hold
         ],
         exec: 'highLoadMessaging',
     },
@@ -52,9 +52,9 @@ const scenarios = {
         executor: 'ramping-vus',
         startVUs: 0,
         stages: [
-            { duration: '5s', target: 10 },
-            { duration: '10s', target: 25 },
-            { duration: '15s', target: 25 }, // hold
+            {duration: '5s', target: 10},
+            {duration: '10s', target: 25},
+            {duration: '15s', target: 25}, // hold
         ],
         exec: 'largePayloadHttp',
     },
@@ -62,12 +62,12 @@ const scenarios = {
         executor: 'ramping-vus',
         startVUs: 0,
         stages: [
-            { duration: '5s', target: 10 },
-            { duration: '10s', target: 25 },
-            { duration: '15s', target: 25 }, // hold
+            {duration: '5s', target: 10},
+            {duration: '10s', target: 25},
+            {duration: '15s', target: 25}, // hold
         ],
         exec: 'largePayloadMessaging',
-    },
+    }
 };
 
 
@@ -122,7 +122,6 @@ export function largePayloadHttp() {
 export function largePayloadMessaging() {
     run('largepayload_messaging');
 }
-
 export function handleSummary(data) {
     const filename = `benchmarkResults/${SCENARIO}-report.html`;
     return {

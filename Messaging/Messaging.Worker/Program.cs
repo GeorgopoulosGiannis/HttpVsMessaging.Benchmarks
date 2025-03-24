@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using MassTransit;
 using Messaging.Contracts;
 using Messaging.Worker;
@@ -10,6 +11,11 @@ builder.Services.AddMassTransit(x =>
     x.AddConsumer<GetOrdersConsumer>();
     x.UsingRabbitMq((ctx, cfg) =>
     {
+        cfg.Host("rabbitmq", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
         cfg.ConfigureEndpoints(ctx);
     });
 });
@@ -19,8 +25,9 @@ host.Run();
 
 public class GetOrdersConsumer : IConsumer<GetOrders>
 {
-    public Task Consume(ConsumeContext<GetOrders> context)
+    public async Task Consume(ConsumeContext<GetOrders> context)
     {
+        await Task.Delay(500);
         var orders = Enumerable.Range(1, context.Message.Size).Select(index =>
                 new Order
                 {
@@ -29,7 +36,7 @@ public class GetOrdersConsumer : IConsumer<GetOrders>
                 })
             .ToArray();
 
-        return context.RespondAsync(new GetOrdersResponse
+        await context.RespondAsync(new GetOrdersResponse
         {
             Orders = orders
         });

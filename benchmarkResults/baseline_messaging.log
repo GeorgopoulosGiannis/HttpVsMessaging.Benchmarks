@@ -9,117 +9,105 @@
         script: benchmark.js
         output: -
 
-     scenarios: (100.00%) 1 scenario, 25 max VUs, 1m0s max duration (incl. graceful stop):
-              * baseline_messaging: Up to 25 looping VUs for 30s over 3 stages (gracefulRampDown: 30s, exec: baselineMessaging, gracefulStop: 30s)
+     scenarios: (100.00%) 1 scenario, 50 max VUs, 55s max duration (incl. graceful stop):
+              * baseline_messaging: Up to 50 looping VUs for 25s over 3 stages (gracefulRampDown: 30s, exec: baselineMessaging, gracefulStop: 30s)
 
 
-running (0m01.0s), 00/25 VUs, 0 complete and 0 interrupted iterations
-baseline_messaging   [   3% ] 00/25 VUs  01.0s/30.0s
+running (01.0s), 01/50 VUs, 0 complete and 0 interrupted iterations
+baseline_messaging   [   4% ] 01/50 VUs  01.0s/25.0s
 
-running (0m02.0s), 01/25 VUs, 468 complete and 0 interrupted iterations
-baseline_messaging   [   7% ] 01/25 VUs  02.0s/30.0s
+running (02.0s), 03/50 VUs, 3 complete and 0 interrupted iterations
+baseline_messaging   [   8% ] 03/50 VUs  02.0s/25.0s
 
-running (0m03.0s), 02/25 VUs, 1611 complete and 0 interrupted iterations
-baseline_messaging   [  10% ] 02/25 VUs  03.0s/30.0s
+running (03.0s), 05/50 VUs, 10 complete and 0 interrupted iterations
+baseline_messaging   [  12% ] 05/50 VUs  03.0s/25.0s
 
-running (0m04.0s), 03/25 VUs, 3090 complete and 0 interrupted iterations
-baseline_messaging   [  13% ] 03/25 VUs  04.0s/30.0s
+running (04.0s), 07/50 VUs, 21 complete and 0 interrupted iterations
+baseline_messaging   [  16% ] 07/50 VUs  04.0s/25.0s
 
-running (0m05.0s), 04/25 VUs, 5031 complete and 0 interrupted iterations
-baseline_messaging   [  17% ] 04/25 VUs  05.0s/30.0s
+running (05.0s), 09/50 VUs, 36 complete and 0 interrupted iterations
+baseline_messaging   [  20% ] 09/50 VUs  05.0s/25.0s
 
-running (0m06.0s), 06/25 VUs, 7298 complete and 0 interrupted iterations
-baseline_messaging   [  20% ] 06/25 VUs  06.0s/30.0s
+running (06.0s), 11/50 VUs, 55 complete and 0 interrupted iterations
+baseline_messaging   [  24% ] 11/50 VUs  06.0s/25.0s
 
-running (0m07.0s), 08/25 VUs, 10312 complete and 0 interrupted iterations
-baseline_messaging   [  23% ] 08/25 VUs  07.0s/30.0s
+running (07.0s), 13/50 VUs, 78 complete and 0 interrupted iterations
+baseline_messaging   [  28% ] 13/50 VUs  07.0s/25.0s
 
-running (0m08.0s), 10/25 VUs, 13803 complete and 0 interrupted iterations
-baseline_messaging   [  27% ] 10/25 VUs  08.0s/30.0s
+running (08.0s), 15/50 VUs, 105 complete and 0 interrupted iterations
+baseline_messaging   [  32% ] 15/50 VUs  08.0s/25.0s
 
-running (0m09.0s), 12/25 VUs, 17709 complete and 0 interrupted iterations
-baseline_messaging   [  30% ] 12/25 VUs  09.0s/30.0s
+running (09.0s), 17/50 VUs, 136 complete and 0 interrupted iterations
+baseline_messaging   [  36% ] 17/50 VUs  09.0s/25.0s
 
-running (0m10.0s), 14/25 VUs, 21822 complete and 0 interrupted iterations
-baseline_messaging   [  33% ] 14/25 VUs  10.0s/30.0s
+running (10.0s), 19/50 VUs, 168 complete and 0 interrupted iterations
+baseline_messaging   [  40% ] 19/50 VUs  10.0s/25.0s
 
-running (0m11.0s), 15/25 VUs, 26248 complete and 0 interrupted iterations
-baseline_messaging   [  37% ] 15/25 VUs  11.0s/30.0s
+running (11.0s), 21/50 VUs, 200 complete and 0 interrupted iterations
+baseline_messaging   [  44% ] 21/50 VUs  11.0s/25.0s
 
-running (0m12.0s), 15/25 VUs, 30691 complete and 0 interrupted iterations
-baseline_messaging   [  40% ] 15/25 VUs  12.0s/30.0s
+running (12.0s), 23/50 VUs, 232 complete and 0 interrupted iterations
+baseline_messaging   [  48% ] 23/50 VUs  12.0s/25.0s
 
-running (0m13.0s), 16/25 VUs, 35239 complete and 0 interrupted iterations
-baseline_messaging   [  43% ] 16/25 VUs  13.0s/30.0s
+running (13.0s), 25/50 VUs, 263 complete and 0 interrupted iterations
+baseline_messaging   [  52% ] 25/50 VUs  13.0s/25.0s
 
-running (0m14.0s), 16/25 VUs, 39452 complete and 0 interrupted iterations
-baseline_messaging   [  47% ] 16/25 VUs  14.0s/30.0s
+running (14.0s), 27/50 VUs, 295 complete and 0 interrupted iterations
+baseline_messaging   [  56% ] 27/50 VUs  14.0s/25.0s
 
-running (0m15.0s), 17/25 VUs, 44013 complete and 0 interrupted iterations
-baseline_messaging   [  50% ] 17/25 VUs  15.0s/30.0s
+running (15.0s), 29/50 VUs, 327 complete and 0 interrupted iterations
+baseline_messaging   [  60% ] 29/50 VUs  15.0s/25.0s
 
-running (0m16.0s), 17/25 VUs, 47610 complete and 0 interrupted iterations
-baseline_messaging   [  53% ] 17/25 VUs  16.0s/30.0s
+running (16.0s), 31/50 VUs, 359 complete and 0 interrupted iterations
+baseline_messaging   [  64% ] 31/50 VUs  16.0s/25.0s
 
-running (0m17.0s), 18/25 VUs, 51858 complete and 0 interrupted iterations
-baseline_messaging   [  57% ] 18/25 VUs  17.0s/30.0s
+running (17.0s), 33/50 VUs, 391 complete and 0 interrupted iterations
+baseline_messaging   [  68% ] 33/50 VUs  17.0s/25.0s
 
-running (0m18.0s), 18/25 VUs, 56050 complete and 0 interrupted iterations
-baseline_messaging   [  60% ] 18/25 VUs  18.0s/30.0s
+running (18.0s), 35/50 VUs, 423 complete and 0 interrupted iterations
+baseline_messaging   [  72% ] 35/50 VUs  18.0s/25.0s
 
-running (0m19.0s), 19/25 VUs, 60751 complete and 0 interrupted iterations
-baseline_messaging   [  63% ] 19/25 VUs  19.0s/30.0s
+running (19.0s), 37/50 VUs, 455 complete and 0 interrupted iterations
+baseline_messaging   [  76% ] 37/50 VUs  19.0s/25.0s
 
-running (0m20.0s), 19/25 VUs, 65713 complete and 0 interrupted iterations
-baseline_messaging   [  67% ] 19/25 VUs  20.0s/30.0s
+running (20.0s), 39/50 VUs, 487 complete and 0 interrupted iterations
+baseline_messaging   [  80% ] 39/50 VUs  20.0s/25.0s
 
-running (0m21.0s), 20/25 VUs, 71033 complete and 0 interrupted iterations
-baseline_messaging   [  70% ] 20/25 VUs  21.0s/30.0s
+running (21.0s), 41/50 VUs, 519 complete and 0 interrupted iterations
+baseline_messaging   [  84% ] 41/50 VUs  21.0s/25.0s
 
-running (0m22.0s), 20/25 VUs, 76376 complete and 0 interrupted iterations
-baseline_messaging   [  73% ] 20/25 VUs  22.0s/30.0s
+running (22.0s), 43/50 VUs, 551 complete and 0 interrupted iterations
+baseline_messaging   [  88% ] 43/50 VUs  22.0s/25.0s
 
-running (0m23.0s), 21/25 VUs, 81734 complete and 0 interrupted iterations
-baseline_messaging   [  77% ] 21/25 VUs  23.0s/30.0s
+running (23.0s), 45/50 VUs, 583 complete and 0 interrupted iterations
+baseline_messaging   [  92% ] 45/50 VUs  23.0s/25.0s
 
-running (0m24.0s), 21/25 VUs, 87110 complete and 0 interrupted iterations
-baseline_messaging   [  80% ] 21/25 VUs  24.0s/30.0s
+running (24.0s), 47/50 VUs, 615 complete and 0 interrupted iterations
+baseline_messaging   [  96% ] 47/50 VUs  24.0s/25.0s
 
-running (0m25.0s), 22/25 VUs, 92516 complete and 0 interrupted iterations
-baseline_messaging   [  83% ] 22/25 VUs  25.0s/30.0s
+running (25.0s), 49/50 VUs, 647 complete and 0 interrupted iterations
+baseline_messaging   [ 100% ] 49/50 VUs  25.0s/25.0s
 
-running (0m26.0s), 22/25 VUs, 97816 complete and 0 interrupted iterations
-baseline_messaging   [  87% ] 22/25 VUs  26.0s/30.0s
-
-running (0m27.0s), 23/25 VUs, 103259 complete and 0 interrupted iterations
-baseline_messaging   [  90% ] 23/25 VUs  27.0s/30.0s
-
-running (0m28.0s), 23/25 VUs, 108524 complete and 0 interrupted iterations
-baseline_messaging   [  93% ] 23/25 VUs  28.0s/30.0s
-
-running (0m29.0s), 24/25 VUs, 114194 complete and 0 interrupted iterations
-baseline_messaging   [  97% ] 24/25 VUs  29.0s/30.0s
-
-running (0m30.0s), 24/25 VUs, 119928 complete and 0 interrupted iterations
-baseline_messaging   [ 100% ] 24/25 VUs  30.0s/30.0s
+running (26.0s), 17/50 VUs, 679 complete and 0 interrupted iterations
+baseline_messaging ↓ [ 100% ] 49/50 VUs  25s
      ✓ [baseline_messaging] status 200
 
-     checks.........................: 100.00% ✓ 119999      ✗ 0     
-     data_received..................: 78 MB   2.6 MB/s
-     data_sent......................: 11 MB   352 kB/s
-     http_req_blocked...............: avg=1.49µs min=0s     med=1µs    max=1.56ms   p(90)=2µs    p(95)=4µs   
-     http_req_connecting............: avg=32ns   min=0s     med=0s     max=439µs    p(90)=0s     p(95)=0s    
-   ✓ http_req_duration..............: avg=3.68ms min=1.11ms med=3.51ms max=108.44ms p(90)=4.9ms  p(95)=5.44ms
-       { expected_response:true }...: avg=3.68ms min=1.11ms med=3.51ms max=108.44ms p(90)=4.9ms  p(95)=5.44ms
-     http_req_failed................: 0.00%   ✓ 0           ✗ 119999
-     http_req_receiving.............: avg=17.8µs min=4µs    med=11µs   max=8.83ms   p(90)=29µs   p(95)=53µs  
-     http_req_sending...............: avg=4.57µs min=1µs    med=3µs    max=1.21ms   p(90)=7µs    p(95)=14µs  
-     http_req_tls_handshaking.......: avg=0s     min=0s     med=0s     max=0s       p(90)=0s     p(95)=0s    
-     http_req_waiting...............: avg=3.66ms min=1.08ms med=3.49ms max=108.37ms p(90)=4.88ms p(95)=5.41ms
-     http_reqs......................: 119999  3999.374759/s
-     iteration_duration.............: avg=3.72ms min=1.15ms med=3.55ms max=108.55ms p(90)=4.94ms p(95)=5.48ms
-     iterations.....................: 119999  3999.374759/s
-     vus............................: 24      min=0         max=24  
-     vus_max........................: 25      min=25        max=25  
-running (0m30.0s), 00/25 VUs, 119999 complete and 0 interrupted iterations
-baseline_messaging ✓ [ 100% ] 00/25 VUs  30s
+     checks.........................: 100.00% ✓ 696       ✗ 0   
+     data_received..................: 456 kB  17 kB/s
+     data_sent......................: 61 kB   2.3 kB/s
+     http_req_blocked...............: avg=53.63µs  min=0s       med=3µs   max=3.64ms p(90)=11µs    p(95)=461.74µs
+     http_req_connecting............: avg=35.11µs  min=0s       med=0s    max=1.82ms p(90)=0s      p(95)=369.24µs
+   ✗ http_req_duration..............: avg=939.79ms min=501.16ms med=1.01s max=1.83s  p(90)=1.52s   p(95)=1.54s   
+       { expected_response:true }...: avg=939.79ms min=501.16ms med=1.01s max=1.83s  p(90)=1.52s   p(95)=1.54s   
+     http_req_failed................: 0.00%   ✓ 0         ✗ 696 
+     http_req_receiving.............: avg=65.32µs  min=7µs      med=40µs  max=3.5ms  p(90)=115.5µs p(95)=146µs   
+     http_req_sending...............: avg=24.07µs  min=2µs      med=10µs  max=3.63ms p(90)=33.5µs  p(95)=52.49µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s    max=0s     p(90)=0s      p(95)=0s      
+     http_req_waiting...............: avg=939.7ms  min=501.1ms  med=1.01s max=1.83s  p(90)=1.52s   p(95)=1.54s   
+     http_reqs......................: 696     26.079527/s
+     iteration_duration.............: avg=940.01ms min=501.28ms med=1.01s max=1.83s  p(90)=1.52s   p(95)=1.54s   
+     iterations.....................: 696     26.079527/s
+     vus............................: 17      min=1       max=49
+     vus_max........................: 50      min=50      max=50
+running (26.7s), 00/50 VUs, 696 complete and 0 interrupted iterations
+baseline_messaging ✓ [ 100% ] 00/50 VUs  25s

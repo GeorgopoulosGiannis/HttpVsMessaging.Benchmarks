@@ -9,117 +9,102 @@
         script: benchmark.js
         output: -
 
-     scenarios: (100.00%) 1 scenario, 25 max VUs, 1m0s max duration (incl. graceful stop):
-              * baseline_http: Up to 25 looping VUs for 30s over 3 stages (gracefulRampDown: 30s, exec: baselineHttp, gracefulStop: 30s)
+     scenarios: (100.00%) 1 scenario, 50 max VUs, 55s max duration (incl. graceful stop):
+              * baseline_http: Up to 50 looping VUs for 25s over 3 stages (gracefulRampDown: 30s, exec: baselineHttp, gracefulStop: 30s)
 
 
-running (0m01.0s), 00/25 VUs, 0 complete and 0 interrupted iterations
-baseline_http   [   3% ] 00/25 VUs  01.0s/30.0s
+running (01.0s), 01/50 VUs, 0 complete and 0 interrupted iterations
+baseline_http   [   4% ] 01/50 VUs  01.0s/25.0s
 
-running (0m02.0s), 01/25 VUs, 4153 complete and 0 interrupted iterations
-baseline_http   [   7% ] 01/25 VUs  02.0s/30.0s
+running (02.0s), 03/50 VUs, 3 complete and 0 interrupted iterations
+baseline_http   [   8% ] 03/50 VUs  02.0s/25.0s
 
-running (0m03.0s), 02/25 VUs, 10064 complete and 0 interrupted iterations
-baseline_http   [  10% ] 02/25 VUs  03.0s/30.0s
+running (03.0s), 05/50 VUs, 10 complete and 0 interrupted iterations
+baseline_http   [  12% ] 05/50 VUs  03.0s/25.0s
 
-running (0m04.0s), 03/25 VUs, 20519 complete and 0 interrupted iterations
-baseline_http   [  13% ] 03/25 VUs  04.0s/30.0s
+running (04.0s), 07/50 VUs, 21 complete and 0 interrupted iterations
+baseline_http   [  16% ] 07/50 VUs  04.0s/25.0s
 
-running (0m05.0s), 04/25 VUs, 34192 complete and 0 interrupted iterations
-baseline_http   [  17% ] 04/25 VUs  05.0s/30.0s
+running (05.0s), 09/50 VUs, 36 complete and 0 interrupted iterations
+baseline_http   [  20% ] 09/50 VUs  05.0s/25.0s
 
-running (0m06.0s), 06/25 VUs, 50478 complete and 0 interrupted iterations
-baseline_http   [  20% ] 06/25 VUs  06.0s/30.0s
+running (06.0s), 11/50 VUs, 55 complete and 0 interrupted iterations
+baseline_http   [  24% ] 11/50 VUs  06.0s/25.0s
 
-running (0m07.0s), 08/25 VUs, 70265 complete and 0 interrupted iterations
-baseline_http   [  23% ] 08/25 VUs  07.0s/30.0s
+running (07.0s), 13/50 VUs, 78 complete and 0 interrupted iterations
+baseline_http   [  28% ] 13/50 VUs  07.0s/25.0s
 
-running (0m08.0s), 10/25 VUs, 91895 complete and 0 interrupted iterations
-baseline_http   [  27% ] 10/25 VUs  08.0s/30.0s
+running (08.0s), 15/50 VUs, 105 complete and 0 interrupted iterations
+baseline_http   [  32% ] 15/50 VUs  08.0s/25.0s
 
-running (0m09.0s), 12/25 VUs, 114955 complete and 0 interrupted iterations
-baseline_http   [  30% ] 12/25 VUs  09.0s/30.0s
+running (09.0s), 17/50 VUs, 136 complete and 0 interrupted iterations
+baseline_http   [  36% ] 17/50 VUs  09.0s/25.0s
 
-running (0m10.0s), 14/25 VUs, 139629 complete and 0 interrupted iterations
-baseline_http   [  33% ] 14/25 VUs  10.0s/30.0s
+running (10.0s), 19/50 VUs, 171 complete and 0 interrupted iterations
+baseline_http   [  40% ] 19/50 VUs  10.0s/25.0s
 
-running (0m11.0s), 15/25 VUs, 164191 complete and 0 interrupted iterations
-baseline_http   [  37% ] 15/25 VUs  11.0s/30.0s
+running (11.0s), 21/50 VUs, 210 complete and 0 interrupted iterations
+baseline_http   [  44% ] 21/50 VUs  11.0s/25.0s
 
-running (0m12.0s), 15/25 VUs, 187163 complete and 0 interrupted iterations
-baseline_http   [  40% ] 15/25 VUs  12.0s/30.0s
+running (12.0s), 23/50 VUs, 253 complete and 0 interrupted iterations
+baseline_http   [  48% ] 23/50 VUs  12.0s/25.0s
 
-running (0m13.0s), 16/25 VUs, 212340 complete and 0 interrupted iterations
-baseline_http   [  43% ] 16/25 VUs  13.0s/30.0s
+running (13.0s), 25/50 VUs, 300 complete and 0 interrupted iterations
+baseline_http   [  52% ] 25/50 VUs  13.0s/25.0s
 
-running (0m14.0s), 16/25 VUs, 233949 complete and 0 interrupted iterations
-baseline_http   [  47% ] 16/25 VUs  14.0s/30.0s
+running (14.0s), 27/50 VUs, 351 complete and 0 interrupted iterations
+baseline_http   [  56% ] 27/50 VUs  14.0s/25.0s
 
-running (0m15.0s), 17/25 VUs, 258927 complete and 0 interrupted iterations
-baseline_http   [  50% ] 17/25 VUs  15.0s/30.0s
+running (15.0s), 29/50 VUs, 406 complete and 0 interrupted iterations
+baseline_http   [  60% ] 29/50 VUs  15.0s/25.0s
 
-running (0m16.0s), 17/25 VUs, 286929 complete and 0 interrupted iterations
-baseline_http   [  53% ] 17/25 VUs  16.0s/30.0s
+running (16.0s), 31/50 VUs, 465 complete and 0 interrupted iterations
+baseline_http   [  64% ] 31/50 VUs  16.0s/25.0s
 
-running (0m17.0s), 18/25 VUs, 314095 complete and 0 interrupted iterations
-baseline_http   [  57% ] 18/25 VUs  17.0s/30.0s
+running (17.0s), 33/50 VUs, 528 complete and 0 interrupted iterations
+baseline_http   [  68% ] 33/50 VUs  17.0s/25.0s
 
-running (0m18.0s), 18/25 VUs, 342381 complete and 0 interrupted iterations
-baseline_http   [  60% ] 18/25 VUs  18.0s/30.0s
+running (18.0s), 35/50 VUs, 595 complete and 0 interrupted iterations
+baseline_http   [  72% ] 35/50 VUs  18.0s/25.0s
 
-running (0m19.0s), 19/25 VUs, 370571 complete and 0 interrupted iterations
-baseline_http   [  63% ] 19/25 VUs  19.0s/30.0s
+running (19.0s), 37/50 VUs, 666 complete and 0 interrupted iterations
+baseline_http   [  76% ] 37/50 VUs  19.0s/25.0s
 
-running (0m20.0s), 19/25 VUs, 397970 complete and 0 interrupted iterations
-baseline_http   [  67% ] 19/25 VUs  20.0s/30.0s
+running (20.0s), 39/50 VUs, 741 complete and 0 interrupted iterations
+baseline_http   [  80% ] 39/50 VUs  20.0s/25.0s
 
-running (0m21.0s), 20/25 VUs, 424748 complete and 0 interrupted iterations
-baseline_http   [  70% ] 20/25 VUs  21.0s/30.0s
+running (21.0s), 41/50 VUs, 819 complete and 0 interrupted iterations
+baseline_http   [  84% ] 41/50 VUs  21.0s/25.0s
 
-running (0m22.0s), 20/25 VUs, 454965 complete and 0 interrupted iterations
-baseline_http   [  73% ] 20/25 VUs  22.0s/30.0s
+running (22.0s), 43/50 VUs, 902 complete and 0 interrupted iterations
+baseline_http   [  88% ] 43/50 VUs  22.0s/25.0s
 
-running (0m23.0s), 21/25 VUs, 484635 complete and 0 interrupted iterations
-baseline_http   [  77% ] 21/25 VUs  23.0s/30.0s
+running (23.0s), 45/50 VUs, 989 complete and 0 interrupted iterations
+baseline_http   [  92% ] 45/50 VUs  23.0s/25.0s
 
-running (0m24.0s), 21/25 VUs, 514726 complete and 0 interrupted iterations
-baseline_http   [  80% ] 21/25 VUs  24.0s/30.0s
+running (24.0s), 47/50 VUs, 1080 complete and 0 interrupted iterations
+baseline_http   [  96% ] 47/50 VUs  24.0s/25.0s
 
-running (0m25.0s), 22/25 VUs, 544786 complete and 0 interrupted iterations
-baseline_http   [  83% ] 22/25 VUs  25.0s/30.0s
-
-running (0m26.0s), 22/25 VUs, 572916 complete and 0 interrupted iterations
-baseline_http   [  87% ] 22/25 VUs  26.0s/30.0s
-
-running (0m27.0s), 23/25 VUs, 601505 complete and 0 interrupted iterations
-baseline_http   [  90% ] 23/25 VUs  27.0s/30.0s
-
-running (0m28.0s), 23/25 VUs, 632104 complete and 0 interrupted iterations
-baseline_http   [  93% ] 23/25 VUs  28.0s/30.0s
-
-running (0m29.0s), 24/25 VUs, 663102 complete and 0 interrupted iterations
-baseline_http   [  97% ] 24/25 VUs  29.0s/30.0s
-
-running (0m30.0s), 24/25 VUs, 691414 complete and 0 interrupted iterations
-baseline_http   [ 100% ] 24/25 VUs  30.0s/30.0s
+running (25.0s), 49/50 VUs, 1175 complete and 0 interrupted iterations
+baseline_http   [ 100% ] 49/50 VUs  25.0s/25.0s
      ✓ [baseline_http] status 200
 
-     checks.........................: 100.00% ✓ 691699       ✗ 0     
-     data_received..................: 450 MB  15 MB/s
-     data_sent......................: 61 MB   2.0 MB/s
-     http_req_blocked...............: avg=1.05µs   min=0s       med=1µs      max=1.36ms  p(90)=2µs      p(95)=3µs   
-     http_req_connecting............: avg=6ns      min=0s       med=0s       max=400µs   p(90)=0s       p(95)=0s    
-   ✓ http_req_duration..............: avg=615.63µs min=107µs    med=572µs    max=37.95ms p(90)=876µs    p(95)=1.01ms
-       { expected_response:true }...: avg=615.63µs min=107µs    med=572µs    max=37.95ms p(90)=876µs    p(95)=1.01ms
-     http_req_failed................: 0.00%   ✓ 0            ✗ 691699
-     http_req_receiving.............: avg=12.61µs  min=3µs      med=8µs      max=8.49ms  p(90)=22µs     p(95)=30µs  
-     http_req_sending...............: avg=3.5µs    min=1µs      med=2µs      max=2.97ms  p(90)=6µs      p(95)=8µs   
-     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s      p(90)=0s       p(95)=0s    
-     http_req_waiting...............: avg=599.5µs  min=96µs     med=557µs    max=37.93ms p(90)=859µs    p(95)=996µs 
-     http_reqs......................: 691699  23055.824842/s
-     iteration_duration.............: avg=642.78µs min=124.29µs med=598.37µs max=37.99ms p(90)=905.17µs p(95)=1.04ms
-     iterations.....................: 691699  23055.824842/s
-     vus............................: 24      min=0          max=24  
-     vus_max........................: 25      min=25         max=25  
-running (0m30.0s), 00/25 VUs, 691699 complete and 0 interrupted iterations
-baseline_http ✓ [ 100% ] 00/25 VUs  30s
+     checks.........................: 100.00% ✓ 1224      ✗ 0   
+     data_received..................: 802 kB  32 kB/s
+     data_sent......................: 108 kB  4.3 kB/s
+     http_req_blocked...............: avg=36.15µs  min=0s       med=3µs      max=1.78ms   p(90)=8µs      p(95)=14µs    
+     http_req_connecting............: avg=26.2µs   min=0s       med=0s       max=1.6ms    p(90)=0s       p(95)=0s      
+   ✗ http_req_duration..............: avg=506.72ms min=500.3ms  med=506.12ms max=700.78ms p(90)=511.48ms p(95)=512.5ms 
+       { expected_response:true }...: avg=506.72ms min=500.3ms  med=506.12ms max=700.78ms p(90)=511.48ms p(95)=512.5ms 
+     http_req_failed................: 0.00%   ✓ 0         ✗ 1224
+     http_req_receiving.............: avg=69.51µs  min=9µs      med=39.5µs   max=15.19ms  p(90)=111µs    p(95)=141µs   
+     http_req_sending...............: avg=18.76µs  min=2µs      med=10µs     max=2.32ms   p(90)=27µs     p(95)=44.84µs 
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s       max=0s       p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=506.64ms min=500.19ms med=506.02ms max=700.32ms p(90)=511.37ms p(95)=512.42ms
+     http_reqs......................: 1224    48.382464/s
+     iteration_duration.............: avg=506.94ms min=500.5ms  med=506.31ms max=706.04ms p(90)=511.64ms p(95)=512.75ms
+     iterations.....................: 1224    48.382464/s
+     vus............................: 49      min=1       max=49
+     vus_max........................: 50      min=50      max=50
+running (25.3s), 00/50 VUs, 1224 complete and 0 interrupted iterations
+baseline_http ✓ [ 100% ] 00/50 VUs  25s

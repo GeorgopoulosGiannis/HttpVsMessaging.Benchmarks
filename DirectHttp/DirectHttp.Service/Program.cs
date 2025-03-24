@@ -1,5 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
 
+var builder = WebApplication.CreateBuilder(args);
+// builder.WebHost.ConfigureKestrel(options =>
+// {
+//     options.Limits.MaxConcurrentConnections = 100;
+// });
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
@@ -9,8 +13,10 @@ if (app.Environment.IsDevelopment())
 }
 
 
-app.MapGet("/orders/{size:int}", (int size) =>
+app.MapGet("/orders/{size:int}", async (int size) =>
     {
+        
+        await Task.Delay(500);
         var orders = Enumerable.Range(1, size).Select(index =>
                 new Order
                 {

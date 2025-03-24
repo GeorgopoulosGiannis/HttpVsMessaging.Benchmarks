@@ -1,0 +1,60 @@
+services:
+  # Direct HTTP Service (data provider)
+  http-service:
+    container_name: http-service
+    image: http-service
+    build:
+      context: .
+      dockerfile: ./DirectHttp/DirectHttp.Service/Dockerfile
+    ports:
+      - "5175:8080"
+
+  # Direct HTTP Client (calls the service)
+  http-client:
+    container_name: http-client
+    image: http-client
+    build:
+      context: .
+      dockerfile: ./DirectHttp/DirectHttp.Client/Dockerfile 
+    ports:
+      - "5179:8080"
+    depends_on:
+      - http-service
+
+  messaging-worker:
+    image: messaging-worker
+    container_name: messaging-worker
+    build:
+      context: .
+      dockerfile: ./Messaging/Messaging.Worker/Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+
+  messaging-client:
+    image: messaging-client
+    container_name: messaging-client
+    build:
+      context: . 
+      dockerfile: ./Messaging/Messaging.Client/Dockerfile
+    ports:
+      - "5026:8080"
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      messaging-worker:
+        condition: service_started
+
+#  # RabbitMQ broker
+  rabbitmq:
+    container_name: rabbitmq
+    image: masstransit/rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    healthcheck:
+      test: [ "CMD", "rabbitmq-diagnostics", "ping" ]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+  

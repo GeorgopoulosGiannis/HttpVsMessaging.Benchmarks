@@ -3,7 +3,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
 
-builder.Services.AddHttpClient("service-client", client => { client.BaseAddress = new Uri("http://localhost:5175"); });
+builder.Services.AddHttpClient("service-client", client =>
+{
+    client.BaseAddress = new Uri("http://http-service:8080");
+});
 
 var app = builder.Build();
 

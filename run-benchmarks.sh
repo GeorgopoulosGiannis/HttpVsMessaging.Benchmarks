@@ -1,12 +1,6 @@
 #!/bin/bash
 
-echo " Building projects..."
-dotnet build DirectHttp/DirectHttp.Client/DirectHttp.Client.csproj -c Release
-dotnet build DirectHttp/DirectHttp.Service/DirectHttp.Service.csproj -c Release
-dotnet build Messaging/Messaging.Client/Messaging.Client.csproj -c Release
-dotnet build Messaging/Messaging.Worker/Messaging.Worker.csproj -c Release
-
-echo "Launching projects..."
+echo "Clean up previous results..."
 
 rm -rf benchmarkResults
 rm -rf logs
@@ -14,28 +8,19 @@ rm -rf logs
 mkdir -p benchmarkResults
 mkdir -p logs
 
+echo "Run docker compose.."
 
-dotnet run --project DirectHttp/DirectHttp.Client/DirectHttp.Client.csproj --urls=http://localhost:5179 > logs/direct.client.log 2>&1 &
-DIRECT_CLIENT_PID=$!
-dotnet run --project DirectHttp/DirectHttp.Service/DirectHttp.Service.csproj --urls=http://localhost:5175 > logs/direct.service.log 2>&1 &
-DIRECT_SERVICE_PID=$!
-dotnet run --project Messaging/Messaging.Client/Messaging.Client.csproj --urls=http://localhost:5026 > logs/messaging.client.log 2>&1 &
-MESSAGING_CLIENT_PID=$!
-dotnet run --project Messaging/Messaging.Worker/Messaging.Worker.csproj > logs/messaging.worker.log 2>&1 &
-MESSAGING_WORKER_PID=$!
+docker compose build
+docker compose up -d
 
-echo "Wait 5 seconds for services to start..."
-sleep 5
-
-echo "Launch script finished"
 
 SCENARIOS=(
   baseline_http
   baseline_messaging
   highload_http
   highload_messaging
-  largepayload_http
-  largepayload_messaging
+#  largepayload_http
+#  largepayload_messaging
 )
 
 for SCENARIO in "${SCENARIOS[@]}"
@@ -48,12 +33,9 @@ done
 rm tmp-colored.log
 echo "All benchmarks complete."
 
-echo "Stopping all services..."
+echo "Stopping services..."
 
-[ -n "$DIRECT_CLIENT_PID" ] && kill $DIRECT_CLIENT_PID
-[ -n "$DIRECT_SERVICE_PID" ] && kill $DIRECT_SERVICE_PID
-[ -n "$MESSAGING_CLIENT_PID" ] && kill $MESSAGING_CLIENT_PID
-[ -n "$MESSAGING_WORKER_PID" ] && kill $MESSAGING_WORKER_PID
+docker compose down
 
 echo "Summarizing"
 
