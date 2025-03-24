@@ -31,96 +31,96 @@ highload_http   [  17% ] 049/200 VUs  05.0s/30.0s
 running (0m06.0s), 059/200 VUs, 319 complete and 0 interrupted iterations
 highload_http   [  20% ] 059/200 VUs  06.0s/30.0s
 
-running (0m07.0s), 069/200 VUs, 441 complete and 0 interrupted iterations
+running (0m07.0s), 069/200 VUs, 438 complete and 0 interrupted iterations
 highload_http   [  23% ] 069/200 VUs  07.0s/30.0s
 
-running (0m08.0s), 079/200 VUs, 582 complete and 0 interrupted iterations
+running (0m08.0s), 079/200 VUs, 581 complete and 0 interrupted iterations
 highload_http   [  27% ] 079/200 VUs  08.0s/30.0s
 
-running (0m09.0s), 089/200 VUs, 741 complete and 0 interrupted iterations
+running (0m09.0s), 089/200 VUs, 744 complete and 0 interrupted iterations
 highload_http   [  30% ] 089/200 VUs  09.0s/30.0s
 
-running (0m10.0s), 099/200 VUs, 919 complete and 0 interrupted iterations
+running (0m10.0s), 099/200 VUs, 927 complete and 0 interrupted iterations
 highload_http   [  33% ] 099/200 VUs  10.0s/30.0s
 
-running (0m11.0s), 109/200 VUs, 1924 complete and 0 interrupted iterations
+running (0m11.0s), 109/200 VUs, 1888 complete and 0 interrupted iterations
 highload_http   [  37% ] 109/200 VUs  11.0s/30.0s
 
-running (0m12.0s), 119/200 VUs, 3412 complete and 0 interrupted iterations
+running (0m12.0s), 119/200 VUs, 3341 complete and 0 interrupted iterations
 highload_http   [  40% ] 119/200 VUs  12.0s/30.0s
 
-running (0m13.0s), 129/200 VUs, 4924 complete and 0 interrupted iterations
+running (0m13.0s), 129/200 VUs, 4830 complete and 0 interrupted iterations
 highload_http   [  43% ] 129/200 VUs  13.0s/30.0s
 
-running (0m14.0s), 139/200 VUs, 6479 complete and 0 interrupted iterations
+running (0m14.0s), 139/200 VUs, 6371 complete and 0 interrupted iterations
 highload_http   [  47% ] 139/200 VUs  14.0s/30.0s
 
-running (0m15.0s), 149/200 VUs, 8011 complete and 0 interrupted iterations
+running (0m15.0s), 149/200 VUs, 7932 complete and 0 interrupted iterations
 highload_http   [  50% ] 149/200 VUs  15.0s/30.0s
 
-running (0m16.0s), 159/200 VUs, 9476 complete and 0 interrupted iterations
+running (0m16.0s), 159/200 VUs, 9449 complete and 0 interrupted iterations
 highload_http   [  53% ] 159/200 VUs  16.0s/30.0s
 
-running (0m17.0s), 169/200 VUs, 10958 complete and 0 interrupted iterations
+running (0m17.0s), 169/200 VUs, 10942 complete and 0 interrupted iterations
 highload_http   [  57% ] 169/200 VUs  17.0s/30.0s
 
-running (0m18.0s), 179/200 VUs, 12488 complete and 0 interrupted iterations
+running (0m18.0s), 179/200 VUs, 12443 complete and 0 interrupted iterations
 highload_http   [  60% ] 179/200 VUs  18.0s/30.0s
 
-running (0m19.0s), 189/200 VUs, 14048 complete and 0 interrupted iterations
+running (0m19.0s), 189/200 VUs, 13986 complete and 0 interrupted iterations
 highload_http   [  63% ] 189/200 VUs  19.0s/30.0s
 
-running (0m20.0s), 199/200 VUs, 15570 complete and 0 interrupted iterations
+running (0m20.0s), 199/200 VUs, 15516 complete and 0 interrupted iterations
 highload_http   [  67% ] 199/200 VUs  20.0s/30.0s
 
-running (0m21.0s), 200/200 VUs, 17049 complete and 0 interrupted iterations
+running (0m21.0s), 200/200 VUs, 16993 complete and 0 interrupted iterations
 highload_http   [  70% ] 200/200 VUs  21.0s/30.0s
 
-running (0m22.0s), 200/200 VUs, 18486 complete and 0 interrupted iterations
+running (0m22.0s), 200/200 VUs, 18451 complete and 0 interrupted iterations
 highload_http   [  73% ] 200/200 VUs  22.0s/30.0s
 
-running (0m23.0s), 200/200 VUs, 19976 complete and 0 interrupted iterations
+running (0m23.0s), 200/200 VUs, 19916 complete and 0 interrupted iterations
 highload_http   [  77% ] 200/200 VUs  23.0s/30.0s
 
-running (0m24.0s), 200/200 VUs, 21505 complete and 0 interrupted iterations
+running (0m24.0s), 200/200 VUs, 21442 complete and 0 interrupted iterations
 highload_http   [  80% ] 200/200 VUs  24.0s/30.0s
 
-running (0m25.0s), 200/200 VUs, 23018 complete and 0 interrupted iterations
+running (0m25.0s), 200/200 VUs, 22843 complete and 0 interrupted iterations
 highload_http   [  83% ] 200/200 VUs  25.0s/30.0s
 
-running (0m26.0s), 200/200 VUs, 24587 complete and 0 interrupted iterations
+running (0m26.0s), 200/200 VUs, 24145 complete and 0 interrupted iterations
 highload_http   [  87% ] 200/200 VUs  26.0s/30.0s
 
-running (0m27.0s), 200/200 VUs, 25470 complete and 0 interrupted iterations
+running (0m27.0s), 200/200 VUs, 25482 complete and 0 interrupted iterations
 highload_http   [  90% ] 200/200 VUs  27.0s/30.0s
 
-running (0m28.0s), 200/200 VUs, 26874 complete and 0 interrupted iterations
+running (0m28.0s), 200/200 VUs, 26856 complete and 0 interrupted iterations
 highload_http   [  93% ] 200/200 VUs  28.0s/30.0s
 
-running (0m29.0s), 200/200 VUs, 28421 complete and 0 interrupted iterations
+running (0m29.0s), 200/200 VUs, 28221 complete and 0 interrupted iterations
 highload_http   [  97% ] 200/200 VUs  29.0s/30.0s
 
-running (0m30.0s), 200/200 VUs, 29983 complete and 0 interrupted iterations
+running (0m30.0s), 200/200 VUs, 29614 complete and 0 interrupted iterations
 highload_http   [ 100% ] 200/200 VUs  30.0s/30.0s
      ✗ [highload_http] status 200
-      ↳  16% — ✓ 5027 / ✗ 25198
+      ↳  16% — ✓ 5027 / ✗ 24836
 
-     checks.........................: 16.63% ✓ 5027      ✗ 25198
-     data_received..................: 6.1 MB 199 kB/s
-     data_sent......................: 2.7 MB 87 kB/s
-     http_req_blocked...............: avg=6.03µs   min=0s       med=2µs     max=2.36ms   p(90)=4µs      p(95)=4µs     
-     http_req_connecting............: avg=2.67µs   min=0s       med=0s      max=2.09ms   p(90)=0s       p(95)=0s      
-   ✗ http_req_duration..............: avg=132.96ms min=2.36ms   med=65.94ms max=661.46ms p(90)=516.66ms p(95)=539.05ms
-       { expected_response:true }...: avg=529.31ms min=500.42ms med=521.1ms max=661.46ms p(90)=566.65ms p(95)=573.38ms
-     http_req_failed................: 83.36% ✓ 25198     ✗ 5027 
-     http_req_receiving.............: avg=27.11µs  min=5µs      med=21µs    max=3.3ms    p(90)=39µs     p(95)=52µs    
-     http_req_sending...............: avg=9.94µs   min=2µs      med=7µs     max=6.64ms   p(90)=13µs     p(95)=16µs    
+     checks.........................: 16.83% ✓ 5027       ✗ 24836
+     data_received..................: 6.1 MB 198 kB/s
+     data_sent......................: 2.6 MB 86 kB/s
+     http_req_blocked...............: avg=6.54µs   min=0s       med=2µs     max=8.76ms   p(90)=4µs      p(95)=5µs     
+     http_req_connecting............: avg=3.04µs   min=0s       med=0s      max=8.21ms   p(90)=0s       p(95)=0s      
+   ✗ http_req_duration..............: avg=134.57ms min=2.35ms   med=68.58ms max=596.42ms p(90)=517.26ms p(95)=539.53ms
+       { expected_response:true }...: avg=529.01ms min=500.35ms med=522.4ms max=596.42ms p(90)=566.04ms p(95)=575.58ms
+     http_req_failed................: 83.16% ✓ 24836      ✗ 5027 
+     http_req_receiving.............: avg=26.64µs  min=4µs      med=21µs    max=5.03ms   p(90)=40µs     p(95)=51µs    
+     http_req_sending...............: avg=10.14µs  min=1µs      med=7µs     max=5.43ms   p(90)=13µs     p(95)=16µs    
      http_req_tls_handshaking.......: avg=0s       min=0s       med=0s      max=0s       p(90)=0s       p(95)=0s      
-     http_req_waiting...............: avg=132.92ms min=2.33ms   med=65.91ms max=661.44ms p(90)=516.61ms p(95)=539.03ms
-     http_reqs......................: 30225  989.55686/s
-     iteration_duration.............: avg=133.04ms min=2.43ms   med=66.02ms max=661.5ms  p(90)=516.74ms p(95)=539.2ms 
-     iterations.....................: 30225  989.55686/s
-     vus............................: 200    min=9       max=200
-     vus_max........................: 200    min=200     max=200
-running (0m30.5s), 000/200 VUs, 30225 complete and 0 interrupted iterations
+     http_req_waiting...............: avg=134.53ms min=2.33ms   med=68.54ms max=596.37ms p(90)=517.22ms p(95)=539.49ms
+     http_reqs......................: 29863  977.259019/s
+     iteration_duration.............: avg=134.65ms min=2.4ms    med=68.65ms max=596.48ms p(90)=517.33ms p(95)=539.63ms
+     iterations.....................: 29863  977.259019/s
+     vus............................: 200    min=9        max=200
+     vus_max........................: 200    min=200      max=200
+running (0m30.6s), 000/200 VUs, 29863 complete and 0 interrupted iterations
 highload_http ✓ [ 100% ] 000/200 VUs  30s
