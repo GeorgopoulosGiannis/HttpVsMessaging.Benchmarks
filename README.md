@@ -25,12 +25,12 @@ You can view the full Markdown summary here:
 
 | Scenario              | Report |
 |----------------------|--------|
-| Baseline HTTP         | [View](./benchmarkResults/baseline_http-report.html) |
-| Baseline Messaging    | [View](./benchmarkResults/baseline_messaging-report.html) |
-| High Load HTTP        | [View](./benchmarkResults/highload_http-report.html) |
-| High Load Messaging   | [View](./benchmarkResults/highload_messaging-report.html) |
-| Large Payload HTTP    | [View](./benchmarkResults/largepayload_http-report.html) |
-| Large Payload Messaging | [View](./benchmarkResults/largepayload_messaging-report.html) |
+| Baseline HTTP         | [View](https://georgopoulosgiannis.github.io/HttpVsMessaging.Benchmarks/baseline_http-report.html) |
+| Baseline Messaging    | [View](https://georgopoulosgiannis.github.io/HttpVsMessaging.Benchmarks/baseline_messaging-report.html) |
+| High Load HTTP        | [View](https://georgopoulosgiannis.github.io/HttpVsMessaging.Benchmarks/highload_http-report.html) |
+| High Load Messaging   | [View](https://georgopoulosgiannis.github.io/HttpVsMessaging.Benchmarks/highload_messaging-report.html) |
+| Large Payload HTTP    | [View](https://georgopoulosgiannis.github.io/HttpVsMessaging.Benchmarks/largepayload_http-report.html) |
+| Large Payload Messaging | [View](https://georgopoulosgiannis.github.io/HttpVsMessaging.Benchmarks/largepayload_messaging-report.html) |
 
 ## Benchmark Environment
 
