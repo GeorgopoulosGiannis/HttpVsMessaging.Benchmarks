@@ -32,8 +32,6 @@ You can view the full Markdown summary here:
 | Large Payload HTTP    | [View](./benchmarkResults/largepayload_http-report.html) |
 | Large Payload Messaging | [View](./benchmarkResults/largepayload_messaging-report.html) |
 
-> Note: GitHub won't preview raw HTML in the browser. To view them, clone the repo and open them locally, or host them using GitHub Pages or a static file server.
-
 ## Benchmark Environment
 
 All benchmarks were executed on a **MacBook Pro M1 Pro (2021)**
