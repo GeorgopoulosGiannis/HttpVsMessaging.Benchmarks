@@ -19,8 +19,6 @@ SCENARIOS=(
   baseline_messaging
   highload_http
   highload_messaging
-#  largepayload_http
-#  largepayload_messaging
 )
 
 for SCENARIO in "${SCENARIOS[@]}"

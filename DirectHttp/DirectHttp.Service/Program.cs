@@ -1,9 +1,9 @@
 
 var builder = WebApplication.CreateBuilder(args);
-// builder.WebHost.ConfigureKestrel(options =>
-// {
-//     options.Limits.MaxConcurrentConnections = 100;
-// });
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.Limits.MaxConcurrentConnections = 100;
+});
 builder.Services.AddOpenApi();
 
 var app = builder.Build();

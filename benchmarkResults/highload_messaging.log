@@ -1,0 +1,143 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: benchmark.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 200 max VUs, 1m0s max duration (incl. graceful stop):
+              * highload_messaging: Up to 200 looping VUs for 30s over 4 stages (gracefulRampDown: 30s, exec: highLoadMessaging, gracefulStop: 30s)
+
+
+running (0m01.0s), 009/200 VUs, 4 complete and 0 interrupted iterations
+highload_messaging   [   3% ] 009/200 VUs  01.0s/30.0s
+
+running (0m02.0s), 019/200 VUs, 27 complete and 0 interrupted iterations
+highload_messaging   [   7% ] 019/200 VUs  02.0s/30.0s
+
+running (0m03.0s), 029/200 VUs, 59 complete and 0 interrupted iterations
+highload_messaging   [  10% ] 029/200 VUs  03.0s/30.0s
+
+running (0m04.0s), 039/200 VUs, 91 complete and 0 interrupted iterations
+highload_messaging   [  13% ] 039/200 VUs  04.0s/30.0s
+
+running (0m05.0s), 049/200 VUs, 123 complete and 0 interrupted iterations
+highload_messaging   [  17% ] 049/200 VUs  05.0s/30.0s
+
+running (0m06.0s), 059/200 VUs, 152 complete and 0 interrupted iterations
+highload_messaging   [  20% ] 059/200 VUs  06.0s/30.0s
+
+running (0m07.0s), 069/200 VUs, 184 complete and 0 interrupted iterations
+highload_messaging   [  23% ] 069/200 VUs  07.0s/30.0s
+
+running (0m08.0s), 079/200 VUs, 216 complete and 0 interrupted iterations
+highload_messaging   [  27% ] 079/200 VUs  08.0s/30.0s
+
+running (0m09.0s), 089/200 VUs, 248 complete and 0 interrupted iterations
+highload_messaging   [  30% ] 089/200 VUs  09.0s/30.0s
+
+running (0m10.0s), 099/200 VUs, 280 complete and 0 interrupted iterations
+highload_messaging   [  33% ] 099/200 VUs  10.0s/30.0s
+
+running (0m11.0s), 109/200 VUs, 312 complete and 0 interrupted iterations
+highload_messaging   [  37% ] 109/200 VUs  11.0s/30.0s
+
+running (0m12.0s), 119/200 VUs, 344 complete and 0 interrupted iterations
+highload_messaging   [  40% ] 119/200 VUs  12.0s/30.0s
+
+running (0m13.0s), 129/200 VUs, 376 complete and 0 interrupted iterations
+highload_messaging   [  43% ] 129/200 VUs  13.0s/30.0s
+
+running (0m14.0s), 139/200 VUs, 405 complete and 0 interrupted iterations
+highload_messaging   [  47% ] 139/200 VUs  14.0s/30.0s
+
+running (0m15.0s), 149/200 VUs, 437 complete and 0 interrupted iterations
+highload_messaging   [  50% ] 149/200 VUs  15.0s/30.0s
+
+running (0m16.0s), 159/200 VUs, 469 complete and 0 interrupted iterations
+highload_messaging   [  53% ] 159/200 VUs  16.0s/30.0s
+
+running (0m17.0s), 169/200 VUs, 501 complete and 0 interrupted iterations
+highload_messaging   [  57% ] 169/200 VUs  17.0s/30.0s
+
+running (0m18.0s), 179/200 VUs, 533 complete and 0 interrupted iterations
+highload_messaging   [  60% ] 179/200 VUs  18.0s/30.0s
+
+running (0m19.0s), 189/200 VUs, 565 complete and 0 interrupted iterations
+highload_messaging   [  63% ] 189/200 VUs  19.0s/30.0s
+
+running (0m20.0s), 199/200 VUs, 597 complete and 0 interrupted iterations
+highload_messaging   [  67% ] 199/200 VUs  20.0s/30.0s
+
+running (0m21.0s), 200/200 VUs, 626 complete and 0 interrupted iterations
+highload_messaging   [  70% ] 200/200 VUs  21.0s/30.0s
+
+running (0m22.0s), 200/200 VUs, 658 complete and 0 interrupted iterations
+highload_messaging   [  73% ] 200/200 VUs  22.0s/30.0s
+
+running (0m23.0s), 200/200 VUs, 690 complete and 0 interrupted iterations
+highload_messaging   [  77% ] 200/200 VUs  23.0s/30.0s
+
+running (0m24.0s), 200/200 VUs, 722 complete and 0 interrupted iterations
+highload_messaging   [  80% ] 200/200 VUs  24.0s/30.0s
+
+running (0m25.0s), 200/200 VUs, 754 complete and 0 interrupted iterations
+highload_messaging   [  83% ] 200/200 VUs  25.0s/30.0s
+
+running (0m26.0s), 200/200 VUs, 786 complete and 0 interrupted iterations
+highload_messaging   [  87% ] 200/200 VUs  26.0s/30.0s
+
+running (0m27.0s), 200/200 VUs, 814 complete and 0 interrupted iterations
+highload_messaging   [  90% ] 200/200 VUs  27.0s/30.0s
+
+running (0m28.0s), 200/200 VUs, 846 complete and 0 interrupted iterations
+highload_messaging   [  93% ] 200/200 VUs  28.0s/30.0s
+
+running (0m29.0s), 200/200 VUs, 878 complete and 0 interrupted iterations
+highload_messaging   [  97% ] 200/200 VUs  29.0s/30.0s
+
+running (0m30.0s), 200/200 VUs, 910 complete and 0 interrupted iterations
+highload_messaging   [ 100% ] 200/200 VUs  30.0s/30.0s
+
+running (0m31.0s), 168/200 VUs, 942 complete and 0 interrupted iterations
+highload_messaging ↓ [ 100% ] 200/200 VUs  30s
+
+running (0m32.0s), 136/200 VUs, 974 complete and 0 interrupted iterations
+highload_messaging ↓ [ 100% ] 200/200 VUs  30s
+
+running (0m33.0s), 107/200 VUs, 1003 complete and 0 interrupted iterations
+highload_messaging ↓ [ 100% ] 200/200 VUs  30s
+
+running (0m34.0s), 075/200 VUs, 1035 complete and 0 interrupted iterations
+highload_messaging ↓ [ 100% ] 200/200 VUs  30s
+
+running (0m35.0s), 043/200 VUs, 1067 complete and 0 interrupted iterations
+highload_messaging ↓ [ 100% ] 200/200 VUs  30s
+
+running (0m36.0s), 011/200 VUs, 1099 complete and 0 interrupted iterations
+highload_messaging ↓ [ 100% ] 200/200 VUs  30s
+     ✓ [highload_messaging] status 200
+
+     checks.........................: 100.00% ✓ 1110      ✗ 0    
+     data_received..................: 727 kB  20 kB/s
+     data_sent......................: 98 kB   2.7 kB/s
+     http_req_blocked...............: avg=132.09µs min=1µs      med=5µs   max=8.4ms  p(90)=621.6µs p(95)=748.74µs
+     http_req_connecting............: avg=96.47µs  min=0s       med=0s    max=2.69ms p(90)=488.2µs p(95)=583.54µs
+   ✗ http_req_duration..............: avg=4.15s    min=502.34ms med=4.46s max=6.43s  p(90)=6.39s   p(95)=6.4s    
+       { expected_response:true }...: avg=4.15s    min=502.34ms med=4.46s max=6.43s  p(90)=6.39s   p(95)=6.4s    
+     http_req_failed................: 0.00%   ✓ 0         ✗ 1110 
+     http_req_receiving.............: avg=99.71µs  min=11µs     med=64µs  max=8.6ms  p(90)=141µs   p(95)=171µs   
+     http_req_sending...............: avg=28.98µs  min=4µs      med=15µs  max=559µs  p(90)=74µs    p(95)=91µs    
+     http_req_tls_handshaking.......: avg=0s       min=0s       med=0s    max=0s     p(90)=0s      p(95)=0s      
+     http_req_waiting...............: avg=4.15s    min=502.25ms med=4.46s max=6.43s  p(90)=6.39s   p(95)=6.4s    
+     http_reqs......................: 1110    30.562355/s
+     iteration_duration.............: avg=4.15s    min=502.44ms med=4.46s max=6.43s  p(90)=6.39s   p(95)=6.4s    
+     iterations.....................: 1110    30.562355/s
+     vus............................: 11      min=9       max=200
+     vus_max........................: 200     min=200     max=200
+running (0m36.3s), 000/200 VUs, 1110 complete and 0 interrupted iterations
+highload_messaging ✓ [ 100% ] 000/200 VUs  30s
